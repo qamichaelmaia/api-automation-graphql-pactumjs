@@ -1,7 +1,7 @@
 {
-  "name": "pactum-contract",
+  "name": "api-automation-graphql-pactjs",
   "version": "1.0.0",
-  "description": "Testes de contrato com Pactum",
+  "description": "Automação de  API com GraphQL e PactJS",
   "main": "index.js",
   "scripts": {
     "test": "mocha ./test/**/*.test.js",
@@ -20,5 +20,8 @@
   "dependencies": {
     "pactum-flow-plugin": "^0.1.4",
     "pactum-matchers": "^1.1.7"
+  },
+  "directories": {
+    "test": "test"
   }
 }
